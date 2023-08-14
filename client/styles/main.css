@@ -12,12 +12,14 @@
   text-align: center;
   display: block;
   background-color: rgb(187, 232, 195);
+  height: 10%;
 }
 
 .flex-content {
   display: flex;
   text-align: left;
   flex-direction: row;
+  height: auto;
 }
 
 .flex-other-blogs {
@@ -63,4 +65,5 @@
   text-align: center;
   display: block;
   background-color: rgb(176, 188, 242);
+  height: 10%;
 }
