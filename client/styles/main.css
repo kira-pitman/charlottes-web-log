@@ -1,7 +1,14 @@
+.container {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+}
+
 .header {
   display: flex;
   flex-direction: row;
-  margin: 0 auto;
   text-align: center;
   display: block;
   background-color: rgb(187, 232, 195);
@@ -15,8 +22,12 @@
 
 .flex-other-blogs {
   display: flex;
-  text-align: left;
   flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  padding-left: 2vw;
+  padding-right: 2vw;
   background-color: rgb(236, 210, 152);
 }
 
@@ -24,7 +35,25 @@
   display: flex;
   text-align: center;
   flex-direction: column;
+  line-height: 3vh;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-left: 4vw;
+  padding-right: 4vw;
   background-color: rgb(203, 189, 216);
+}
+
+.flex-recent-entries {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  background-color: rgb(236, 210, 152);
 }
 
 .footer {

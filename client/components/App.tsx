@@ -1,5 +1,3 @@
-import postData from '../data/posts.ts'
-import Post from './Post.tsx'
 import { Posts } from './Posts.tsx'
 import { Header } from './Header.tsx'
 import { Footer } from './Footer.tsx'
@@ -14,12 +12,15 @@ function App() {
       </div>
       <div className="flex-content">
         <div className="flex-other-blogs">
+          <h2>Other Blogs</h2>
           <OtherBlogs />
         </div>
         <div className="flex-container-posts">
+          <h2>Posts</h2>
           <Posts />
         </div>
-        <div className="flex-other-blogs">
+        <div className="flex-recent-entries">
+          <h2>Recent Entries</h2>
           <RecentEntries />
         </div>
       </div>
