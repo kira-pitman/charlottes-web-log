@@ -1,15 +1,16 @@
-interface Props {
-  title: string
-  link: string
-}
+import header from '../data/header.ts'
 
-function Header(props: Props) {
+// interface Props {
+//   title: string
+//   link: string
+// }
+
+export function Header() {
   return (
     <div>
-      <h1>{props.title}</h1>
-      ...
+      <h1>{header.title}</h1>
     </div>
   )
 }
 
-export default Header
+

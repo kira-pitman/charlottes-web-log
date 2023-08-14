@@ -1,18 +1,12 @@
-interface Props {
-  copyright: string
-  author: string
-}
+import footer from '../data/footer.ts'
 
-function Footer(props: Props) {
+export function Footer() {
   return (
     <div>
       <h1>
-        {props.copyright}
-        {props.author}
+        {footer.copyright}
+        {footer.author}
       </h1>
-      ...
     </div>
   )
 }
-
-export default Footer
