@@ -7,6 +7,19 @@
   background-color: rgb(187, 232, 195);
 }
 
+.flex-content {
+  display: flex;
+  text-align: left;
+  flex-direction: row;
+}
+
+.flex-other-blogs {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  background-color: rgb(236, 210, 152);
+}
+
 .flex-container-posts {
   display: flex;
   text-align: center;
