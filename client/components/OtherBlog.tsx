@@ -7,7 +7,7 @@ interface Props {
 function otherBlog(props: Props) {
   return (
     <div>
-      <a href="howdy">
+      <a href={props.link}>
         <h3>{props.blogTitle}</h3>
       </a>
     </div>

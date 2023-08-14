@@ -7,7 +7,7 @@ interface Props {
 function recentEntry(props: Props) {
   return (
     <div>
-      <a href="howdy">
+      <a href={props.link}>
         <h3>{props.name}</h3>
       </a>
     </div>
