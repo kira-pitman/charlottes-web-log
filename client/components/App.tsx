@@ -12,6 +12,7 @@ function App() {
       </div>
       <div className="flex-container-posts">
         <Posts />
+        <div className="flex-single-posts"></div>
       </div>
       <div className="footer">
         <Footer />

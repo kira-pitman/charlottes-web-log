@@ -10,7 +10,7 @@ function Post(props: Props) {
   return (
     <div>
       <h3>{props.title}</h3>
-      ...
+      <p>{props.paragraphs}</p>
     </div>
   )
 }
