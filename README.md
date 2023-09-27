@@ -1,5 +1,9 @@
 # Charlotte's Web Log
 
+This was a challenge in week 4 of Dev Academy Aotearoa bootcamp. This challenge focused on learning how to work with react, particularly incorperative typescript, HTML, css, and javascript.
+
+# Instructions given for the challenge
+
 In this exercise, we're going to use modular React components to build a blog for Charlotte. The text content and a wireframe showing the suggested layout have been provided.
 
 ![Charlotte's Web logo](charlottes-web.png)
